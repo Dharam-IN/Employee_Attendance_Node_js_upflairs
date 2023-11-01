@@ -9,6 +9,7 @@ const client = new Client({
 })
 
 client.connect();
+module.exports = client;
 
 // client.query("SELECT * FROM employees", (error, results)=>{
 //     if(error){
